@@ -1,0 +1,16 @@
+zad.2
+
+MySQL -> show create table [TABLE_NAME]
+
+PostreSQL -> SELECT table_name, column_name, data_type FROM INFORMATION_SCHEMA.COLUMNS where table_name = '[TABLE_NAME]';
+
+lub: \d+ [TABLE_NAME]
+
+Oracle -> DESCRIBE [TABLE_NAME]
+
+
+-------------------------------------
+INNER JOIN - część wspólna
+LEFT JOIN - każda krotka lewej tabeli i pasujące elementy z tabeli prawej
+RIGHT JOIN - każda krotka prawej tabeli i pasujące elementy z tabeli lewej
+OUTER JOIN - zwraca wszystkie rekordy z lewej lub prawej tabeli, jeśli je dopasowano
